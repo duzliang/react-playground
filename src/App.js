@@ -4,6 +4,7 @@ import './App.css';
 import Test from './hoc/Test';
 
 import logProps from './hoc/Index';
+import Profiler from './profiler/Index';
 
 const TestComponent = logProps(Test)
 
@@ -25,6 +26,8 @@ function App() {
         </a>
 
         <TestComponent />
+
+        <Profiler />
       </header>
     </div>
   );
